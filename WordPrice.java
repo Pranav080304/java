@@ -38,6 +38,7 @@ int x = 0;
 		} else{  
 				if (num[x] - '0' == 1)   
 				{  
+					// System.out.println("Abc"+num[x] - '0');
 				int sum = num[x] - '0' + num[x + 1] - '0';  
 				System.out.println(twodigits[sum]);  
 				return;  
